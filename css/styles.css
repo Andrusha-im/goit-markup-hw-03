@@ -88,13 +88,7 @@ body{
 .about-team{
     background-color: #FFFFFF;
 }
-.member{
-    font-weight: 500;
-    font-size: 20;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+
 .info-member{
     line-height: 1.5;
     font-size: 16px;
