@@ -1,10 +1,10 @@
 body{
-    font-family:"Raleway",sans-serif;
+    font-family:"Roboto",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 .logo{
-    font-family: "Releway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height:1.17;
@@ -16,7 +16,7 @@ body{
 .logo-accent{
     color:#2e2f42;
 }
-.studio{
+.nav{
     font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -24,7 +24,16 @@ body{
     letter-spacing: 0.02em;
     color:#2E2F42
 }
-.studio:hover,
-.studio:focus{
+.nav:hover,
+.nav:focus{
     color:#404bbf;
 }
+.contact{font-style: normal;}
+.contact-info{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.contact-info:hover,
+.contact-info:focus{color: #404bbf}
