@@ -149,7 +149,7 @@ img{display: block;}
 .about-li{
     width: calc((100% - 72px) / 4);
 }
-.about{
+.about_s2{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -158,7 +158,7 @@ img{display: block;}
     margin-bottom: 8px;
     text-align: center;
 }
-.about-text{
+.about-text_s2{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
