@@ -17,6 +17,7 @@ h6,
 p {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
 }
 img{display: block;}
 .header{
@@ -166,6 +167,12 @@ img{display: block;}
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.section-four{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+
+}
 .team-text{
     text-align: center;
     font-size: 36px;
@@ -174,6 +181,7 @@ img{display: block;}
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+
 }
 .team-ul{
     display: flex;
@@ -193,6 +201,21 @@ img{display: block;}
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+}
+.ul_section_four{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.li_section_four{
+    width: calc((100% - 48px) / 3);
+}
+.d_s_f{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .footer{
     background-color: #2E2F42;
