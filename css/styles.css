@@ -48,7 +48,7 @@ img{display: block;}
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-
+    
 }
 .logo-accent{
     color:#2e2f42;
@@ -170,8 +170,6 @@ img{display: block;}
 .section-four{
     padding-top: 120px;
     padding-bottom: 120px;
-
-
 }
 .team-text{
     text-align: center;
@@ -219,6 +217,19 @@ img{display: block;}
 }
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
+}
+.logo_f{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        margin-right: 76px;
+        margin-bottom: 16px;
+        display: inline-block;
 }
 .logo-footer{
     color: #f4f4fd;
@@ -227,4 +238,5 @@ img{display: block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
