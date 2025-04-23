@@ -102,6 +102,28 @@ img{display: block;}
 .title-button:hover,
 .title-button:focus{
     background-color: #404BBF;
+} 
+.section-two{
+    padding: 120px 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.about-ul{
+    display: flex;
+    gap: 24px;
+
+}
+.about-li{
+    width: calc((100% - 72px) / 4);
 }
 .about{
     font-weight: 500;
@@ -109,6 +131,7 @@ img{display: block;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .about-text{
     line-height: 1.5;
