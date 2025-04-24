@@ -149,16 +149,15 @@ img{display: block;}
 .about-li{
     width: calc((100% - 72px) / 4);
 }
-.about_s2{
+.about_s_two{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    text-align: center;
 }
-.about-text_s2{
+.about-text_s_two{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -166,6 +165,9 @@ img{display: block;}
 .team{
     background-color: #F4F4FD;
     padding: 120px 0;
+}
+.about{
+    margin-bottom: 8px;
 }
 .section-four{
     padding-top: 120px;
@@ -190,6 +192,10 @@ img{display: block;}
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+.name_member{
+    margin-bottom: 8px;
+    text-align: center;
+}
 .person-text{
     padding: 32px 0;
 }
@@ -213,7 +219,6 @@ img{display: block;}
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .footer{
     background-color: #2E2F42;
